@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V.Pay</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="img/Vpay-logo-smaller.png" alt="V pay logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#">Home</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#">About</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#service">Features</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#">Pricing</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#footer">Contact</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#">Sign Up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section-hero grid grid--2-cols grid--center-v">
+      <div class="hero-text">
+        <h1 class="heading-primary">All in One For Transaction Solutions</h1>
+        <p class="heading-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tempore
+          expedita laudantium, dicta odio iusto.
+        </p>
+        <a class="btn btn--full margin-right-sm" href="#">Try Now</a>
+        <a class="btn btn--outline" href="#">How it Works</a>
+      </div>
+      <div class="card-grid">
+        <div class="small-card">
+          <img
+            class="cus-img"
+            src="img/customer/customer.jpg"
+            alt="customer image"
+          />
+          <div class="cus-review">
+            <p>John</p>
+            <div>
+              <ion-icon class="star-icon" name="star"></ion-icon>
+              <ion-icon class="star-icon" name="star"></ion-icon>
+              <ion-icon class="star-icon" name="star"></ion-icon>
+              <ion-icon class="star-icon" name="star"></ion-icon>
+              <ion-icon class="star-icon" name="star-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="card grid--card">
+          <p class="credit-card-no">3652145285789654</p>
+          <img
+            src="img/Vpay-logo-smaller.png"
+            alt="vpay-logo"
+            class="oncard-logo"
+          />
+          <svg
+            class="chip"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 32 32"
+            style="enable-background: new 0 0 32 32"
+            xml:space="preserve"
+          >
+            <path
+              id="chip--credit_1_"
+              d="M29,28.36H3c-1.301,0-2.36-1.059-2.36-2.36V6c0-1.301,1.059-2.36,2.36-2.36h26
+                c1.302,0,2.36,1.059,2.36,2.36v20C31.36,27.302,30.302,28.36,29,28.36z M22.36,27.64H29c0.904,0,1.64-0.735,1.64-1.64v-3.64h-8.28
+                V27.64z M10.36,27.64h11.28V10c0-0.199,0.161-0.36,0.36-0.36h8.64V6c0-0.904-0.735-1.64-1.64-1.64H10.36V27.64z M1.36,22.36V26
+                c0,0.904,0.736,1.64,1.64,1.64h6.64v-5.28H1.36z M22.36,21.64h8.279v-5.28H22.36V21.64z M1.36,21.64h8.28v-5.28H1.36V21.64z
+                M22.36,15.64h8.279v-5.28H22.36V15.64z M1.36,15.64h8.28v-5.28H1.36V15.64z M1.36,9.64h8.28V4.36H3C2.096,4.36,1.36,5.096,1.36,6
+                V9.64z"
+            />
+            <rect
+              id="_Transparent_Rectangle"
+              style="fill: none"
+              width="32"
+              height="32"
+            />
+          </svg>
+          <svg
+            class="visa-logo"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g>
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M22.222 15.768l-.225-1.125h-2.514l-.4 1.117-2.015.004a4199.19 4199.19 0 0 1 2.884-6.918c.164-.391.455-.59.884-.588.328.003.863.003 1.606.001L24 15.765l-1.778.003zm-2.173-2.666h1.62l-.605-2.82-1.015 2.82zM7.06 8.257l2.026.002-3.132 7.51-2.051-.002a950.849 950.849 0 0 1-1.528-5.956c-.1-.396-.298-.673-.679-.804C1.357 8.89.792 8.71 0 8.465V8.26h3.237c.56 0 .887.271.992.827.106.557.372 1.975.8 4.254L7.06 8.257zm4.81.002l-1.602 7.508-1.928-.002L9.94 8.257l1.93.002zm3.91-.139c.577 0 1.304.18 1.722.345l-.338 1.557c-.378-.152-1-.357-1.523-.35-.76.013-1.23.332-1.23.638 0 .498.816.749 1.656 1.293.959.62 1.085 1.177 1.073 1.782-.013 1.256-1.073 2.495-3.309 2.495-1.02-.015-1.388-.101-2.22-.396l.352-1.625c.847.355 1.206.468 1.93.468.663 0 1.232-.268 1.237-.735.004-.332-.2-.497-.944-.907-.744-.411-1.788-.98-1.774-2.122.017-1.462 1.402-2.443 3.369-2.443z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div class="card-below grid--card">
+          <p class="credit-card-no">3652145285789654</p>
+          <img
+            src="img/Vpay-logo-smaller.png"
+            alt="vpay-logo"
+            class="oncard-logo"
+          />
+          <svg
+            class="chip"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 32 32"
+            style="enable-background: new 0 0 32 32"
+            xml:space="preserve"
+          >
+            <path
+              id="chip--credit_1_"
+              d="M29,28.36H3c-1.301,0-2.36-1.059-2.36-2.36V6c0-1.301,1.059-2.36,2.36-2.36h26
+                c1.302,0,2.36,1.059,2.36,2.36v20C31.36,27.302,30.302,28.36,29,28.36z M22.36,27.64H29c0.904,0,1.64-0.735,1.64-1.64v-3.64h-8.28
+                V27.64z M10.36,27.64h11.28V10c0-0.199,0.161-0.36,0.36-0.36h8.64V6c0-0.904-0.735-1.64-1.64-1.64H10.36V27.64z M1.36,22.36V26
+                c0,0.904,0.736,1.64,1.64,1.64h6.64v-5.28H1.36z M22.36,21.64h8.279v-5.28H22.36V21.64z M1.36,21.64h8.28v-5.28H1.36V21.64z
+                M22.36,15.64h8.279v-5.28H22.36V15.64z M1.36,15.64h8.28v-5.28H1.36V15.64z M1.36,9.64h8.28V4.36H3C2.096,4.36,1.36,5.096,1.36,6
+                V9.64z"
+            />
+            <rect
+              id="_Transparent_Rectangle"
+              style="fill: none"
+              width="32"
+              height="32"
+            />
+          </svg>
+          <svg
+            class="visa-logo"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g>
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M22.222 15.768l-.225-1.125h-2.514l-.4 1.117-2.015.004a4199.19 4199.19 0 0 1 2.884-6.918c.164-.391.455-.59.884-.588.328.003.863.003 1.606.001L24 15.765l-1.778.003zm-2.173-2.666h1.62l-.605-2.82-1.015 2.82zM7.06 8.257l2.026.002-3.132 7.51-2.051-.002a950.849 950.849 0 0 1-1.528-5.956c-.1-.396-.298-.673-.679-.804C1.357 8.89.792 8.71 0 8.465V8.26h3.237c.56 0 .887.271.992.827.106.557.372 1.975.8 4.254L7.06 8.257zm4.81.002l-1.602 7.508-1.928-.002L9.94 8.257l1.93.002zm3.91-.139c.577 0 1.304.18 1.722.345l-.338 1.557c-.378-.152-1-.357-1.523-.35-.76.013-1.23.332-1.23.638 0 .498.816.749 1.656 1.293.959.62 1.085 1.177 1.073 1.782-.013 1.256-1.073 2.495-3.309 2.495-1.02-.015-1.388-.101-2.22-.396l.352-1.625c.847.355 1.206.468 1.93.468.663 0 1.232-.268 1.237-.735.004-.332-.2-.497-.944-.907-.744-.411-1.788-.98-1.774-2.122.017-1.462 1.402-2.443 3.369-2.443z"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section class="section-how">
+      <h2 class="heading-secondary center-text">
+        Easy and First Way to<br />
+        Send Money
+      </h2>
+      <p class="how-desc center-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga inventore
+        at, quia animi natus consequuntur, iste reiciendis corrupti recusandae
+        minus numquam ipsam rem. Est velit quisquam, nisi reiciendis eos ab.
+      </p>
+      <div class="steps">
+        <div class="behind-circle">
+          <div class="step">
+            <span>01</span>
+          </div>
+        </div>
+        <div class="tick-line"></div>
+        <div class="behind-circle">
+          <div class="step">
+            <span>02</span>
+          </div>
+        </div>
+        <div class="tick-line"></div>
+        <div class="behind-circle">
+          <div class="step">
+            <span>03</span>
+          </div>
+        </div>
+        <div class="tick-line"></div>
+        <div class="behind-circle">
+          <div class="step">
+            <span>04</span>
+          </div>
+        </div>
+      </div>
+      <div class="step-titles">
+        <p class="step-title step--1-mar">Select Country</p>
+        <p class="step-title step--2-mar">Choose Service</p>
+        <p class="step-title step--3-mar">Input Information</p>
+        <p class="step-title step--4-mar">Confirm & Send</p>
+      </div>
+    </section>
+    <section id="service" class="services grid grid--2-cols grid--center-v">
+      <div class="service-text">
+        <h2 class="heading-secondary">
+          Best Payment Service For Your Transaction
+        </h2>
+        <p class="service-desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quia ad
+          debitis officia, eius ullam consequuntur nulla dolores assumenda
+          architecto itaque illum, doloremque repellat necessitatibus et optio
+          dolorem, id facere!
+        </p>
+      </div>
+      <div class="service-cards grid--serivce">
+        <div class="service-card align-right">
+          <img
+            class="service-icon"
+            src="img/guarantee.png"
+            alt="guarantee icon"
+          />
+          <p class="ser-title">Guarantee</p>
+          <p class="ser-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            class="service-icon"
+            src="img/icons8-speed-64.png"
+            alt="Speed icon"
+          />
+          <p class="ser-title">Speed</p>
+          <p class="ser-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="service-card align-right">
+          <img
+            class="service-icon"
+            src="img/icons8-secure-64.png"
+            alt="Secure icon"
+          />
+          <p class="ser-title">Secure</p>
+          <p class="ser-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            class="service-icon"
+            src="img/icons8-take-it-easy-64.png"
+            alt="Easy To Use icon"
+          />
+          <p class="ser-title">Easy To Use</p>
+          <p class="ser-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-shopping grid grid--2-cols">
+      <img
+        class="shopping-img"
+        src="img/shopping.png"
+        alt="shopping illustration"
+      />
+      <div class="shopping-text">
+        <h2 class="heading-secondary">Shop Anything</h2>
+        <p class="shopping-desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+          repellat, quasi facere dolor cupiditate rem blanditiis assumenda?
+          Magni, deleniti blanditiis asperiores architecto accusantium natus non
+          libero repellendus omnis amet. Laborum?
+        </p>
+        <ul class="shopping-list">
+          <li class="list-item">
+            <ion-icon
+              class="tick-icon"
+              name="checkmark-circle-outline"
+            ></ion-icon
+            ><span>Lorem ipsum dolor adipisicing elit.</span>
+          </li>
+          <li class="list-item">
+            <ion-icon
+              class="tick-icon"
+              name="checkmark-circle-outline"
+            ></ion-icon
+            ><span>Lorem ipsum dolor adipisicing elit.</span>
+          </li>
+          <li class="list-item">
+            <ion-icon
+              class="tick-icon"
+              name="checkmark-circle-outline"
+            ></ion-icon
+            ><span>Lorem ipsum dolor adipisicing elit.</span>
+          </li>
+          <li class="list-item">
+            <ion-icon
+              class="tick-icon"
+              name="checkmark-circle-outline"
+            ></ion-icon
+            ><span>Lorem ipsum dolor adipisicing elit.</span>
+          </li>
+        </ul>
+      </div>
+      <div class="card-text">
+        <h2 class="heading-secondary">Choose Your Own Unique Card</h2>
+        <p class="shopping-desc">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis minus
+          neque dolorem, repudiandae saepe tempore expedita, nemo asperiores
+          doloremque totam fugit mollitia ullam quas, earum fuga. Expedita fuga
+          voluptatibus voluptatum?
+        </p>
+      </div>
+      <img
+        class="debit-card-img"
+        src="img/debit-cards.png"
+        alt="debit card image"
+      />
+    </section>
+    <section class="section-testimonial">
+      <h2 class="heading-secondary">What Our Clients Say About Our Service</h2>
+      <div class="testimonials grid grid--2-cols">
+        <div class="test">
+          <div>
+            <div class="author">
+              <img
+                class="author-img"
+                src="img/customer/customer-1.jpg"
+                alt="author image"
+              />
+              <div>
+                <p class="author-name">Natasha</p>
+                <p class="author-designation">Programmer</p>
+              </div>
+            </div>
+            <div class="author-text">
+              <p class="text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Doloremque ex voluptatibus nihil, eaque accusantium sed facere
+                nesciunt. Obcaecati aperiam, illum ullam ipsum, laudantium dicta
+                praesentium, quibusdam voluptates porro deserunt nemo.
+              </p>
+              <ion-icon class="testi-star-icon" name="star"></ion-icon>
+              <ion-icon class="testi-star-icon" name="star"></ion-icon>
+              <ion-icon class="testi-star-icon" name="star"></ion-icon>
+              <ion-icon class="testi-star-icon" name="star"></ion-icon>
+              <ion-icon class="testi-star-icon" name="star"></ion-icon>
+            </div>
+          </div>
+          <div>
+            <div class="author">
+              <img
+                class="author-img"
+                src="img/customer/customer-2.jpg"
+                alt="author image"
+              />
+              <div>
+                <p class="author-name">John</p>
+                <p class="author-designation">Software Eng.</p>
+              </div>
+            </div>
+            <div class="author-text">
+              <p class="text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Doloremque ex voluptatibus nihil, eaque accusantium sed facere
+                nesciunt. Obcaecati aperiam, illum ullam ipsum, laudantium dicta
+                praesentium, quibusdam voluptates porro deserunt nemo.
+              </p>
+              <ion-icon class="testi-star-icon" name="star"></ion-icon>
+              <ion-icon class="testi-star-icon" name="star"></ion-icon>
+              <ion-icon class="testi-star-icon" name="star"></ion-icon>
+              <ion-icon class="testi-star-icon" name="star"></ion-icon>
+              <ion-icon class="testi-star-icon" name="star"></ion-icon>
+            </div>
+          </div>
+          <div class="navigator">
+            <ion-icon
+              class="nav-icon"
+              name="chevron-up-circle-outline"
+            ></ion-icon>
+            <ion-icon
+              class="nav-icon nav-select"
+              name="chevron-down-circle-outline"
+            ></ion-icon>
+          </div>
+        </div>
+        <div class="comments">
+          <p class="comment">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+            cupiditate necessitatibus aliquid fuga quis rem voluptatibus quos
+            reprehenderit voluptas, alias assumenda id consectetur animi
+            eligendi minima libero est architecto accusamus!
+          </p>
+          <blockquote>
+            &ldquo; Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Labore dolorum non nisi quo, culpa voluptatem optio.&rdquo;
+          </blockquote>
+          <div class="commenter">
+            <img
+              class="comment-img"
+              src="img/customer/customer-3.jpg"
+              alt="commenter image"
+            />
+            <div>
+              <p class="commenter-name">Alice</p>
+              <p class="commenter-des">Desinger</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-app">
+      <h3 class="heading-tertiary">Get Started with our V.Pay Now</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ea
+        suscipit<br />
+        tempora temporibus delectus quis doloremque placeat et, autem aperiam.
+      </p>
+      <div class="store-badges">
+        <img
+          class="google-badge"
+          src="img/google-play-badge.png"
+          alt="google play badge"
+        />
+        <img
+          class="apple-badge"
+          src="img/apple store badge.png"
+          alt="apple store badge"
+        />
+      </div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              class="footerlogo"
+              src="img/Vpay-logo-smaller.png"
+              alt="vpay logo"
+            />
+          </a>
+          <p class="footer-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minus
+            similique inventore aliquid quae eos architecto corporis blanditiis
+            qui neque consequatur.
+          </p>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; 2027 by Vpay. Inc All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact Us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@vpay.com"
+                >hello@vpay.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create Account</a></li>
+            <li><a class="footer-link" href="#">Sign In</a></li>
+            <li><a class="footer-link" href="#">iOS App</a></li>
+            <li><a class="footer-link" href="#">Android App</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About VPay</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Banking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
